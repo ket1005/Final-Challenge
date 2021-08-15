@@ -1,0 +1,225 @@
+/*$white:#FFFCF9;
+$lightbeige:#F8F4F0;
+$beige:#F3EEE8;
+$creamy:#EAE3DB;
+$brown:#3C271D;
+$dark:#161614;*/
+
+/*NAV STYLING*/
+body{
+    font-family: FreightSansProMedium-Regular;
+}
+.page-light{
+    background-color:#F8F4F0;
+    position: absolute;
+    width: 1519px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+}
+.wrapper{
+    max-width: 1519px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 90px;
+    height: 119.2px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 90%;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav_link{
+    color:#3C271D;
+    text-decoration: none;
+    font-family: FreightSansProMedium-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 120%;
+    /* or 13px */
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+/*main STYLING*/
+.main{
+    font-family: FreightDispProLight-Regular;
+    align-items: center;
+    background-color:#F8F4F0;
+}
+.italic{
+    font-style: italic; 
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    /* DISPLAY */
+    width: 770px;
+    height: 210px;
+    margin-top: 200px;
+    margin-left: 240px;
+    font-family: FreightDispProLight-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 100%;
+    /* or 70px */
+    display: flex;
+    flex-grow:210px;    
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* Text Accent */
+    color: #3C271D;
+
+}
+.words{
+    width: 500px;
+    height: 17px;
+    margin-top: 50px;
+     /* Heading 3 - Default (Subtitle) */
+    font-family: FreightBigProMedium-Regular;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #161614;
+
+}
+.sanitizer pic{
+    position: absolute;
+    width: 228px;
+    height: 349px;
+    left: 1052px;
+    top: 232px;
+}
+.women pic{
+    position: absolute;
+    width: 146px;
+    height: 121px;
+    left: 1103px;
+    top: 190px;
+}
+.image pic{
+    position: absolute;
+    width: 147px;
+    height: 164px;
+    left: 0px;
+    top: 539px;
+
+}
+.arrow pic{
+    width: 39px;
+    height: 0px;
+    left: 640px;
+    top: 664px;
+}
+
+.page-white{
+    font-family: FreightBigProMedium-Regular;
+    background-color: #FFFCF9;
+    width: 1519px;
+    height: 781px;
+    left: 0px;
+    top: 800px;
+}
+.beige pic{
+    width: 289.78px;
+    height: 321.57px;
+    left: 197px;
+    top: 920px;
+}
+.work{
+    position: absolute;
+    width: 404px;
+    height: 18px;
+    left: -120px;
+    top: 1100px;
+
+    /* /Heading 3 - Bold (Subtitle 2) */
+
+    font-family: FreightBigProMedium-Regular;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    /* Text Accent */
+
+    color: #3C271D;
+
+    transform: rotate(-90deg);
+}
+.threeblocks{
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    margin-top: 120px;;
+} 
+
+.name{
+    font-family: FreightDispProLight-Italic;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 100%;
+    /* or 40px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+
+    /* Text Accent */
+
+    color: #3C271D;
+
+}   
+.brand{
+    position: absolute;
+    width: 98px;
+    height: 17px;
+    top: 1350px;
+
+    /* Heading 3 - Default (Subtitle) */
+
+    font-family: FreightBigProMedium-Regular;
+    font-size: 14px;
+    line-height: 120%;
+    /* identical to box height, or 17px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    /* Text Dark */
+
+    color: #161614;
+
+}
